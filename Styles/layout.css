@@ -98,3 +98,12 @@ header{
 
 
 /*-------------------------------------------------------------*/
+.card{
+  height: 150px;
+  width: 150px;
+  background-color: black;
+}
+.card a{
+  color: white;
+  font-size: 40px;
+}
