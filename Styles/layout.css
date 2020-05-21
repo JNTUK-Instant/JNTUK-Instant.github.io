@@ -6,6 +6,7 @@ body{
 /*------------------------------------------------------------------------------*/
 .page_content{
   margin: 0 3%;
+  min-width: 375px;
   border-radius: 36px 0 0 0;
   background-color: hsla(82, 30%, 35%, 0.8);
   height: 900px;
@@ -48,6 +49,7 @@ header{
   border-radius: 30px 0 0 0;
   margin-right: 10px;
   user-select: none;
+  padding: 0;
 }
 @media screen and (max-width:710px) {
   .logo_block{
@@ -57,7 +59,8 @@ header{
 }
 
 .head-logo_block{
-  height: 120px;
+  height: 125px;
+  padding: 10px 5px 0;
 }
 
 .head-logo_block h1{
@@ -68,17 +71,16 @@ header{
 }
 
 #heading1{
-  margin: 10px auto;
+  margin: 0 auto 0;
   width: 160px;
-  transform: rotate(4deg);
 }
 #heading2{
   margin: 10px auto;
   width: 300px;
-  transform: rotate(-4deg);
+  transform: rotate(-7deg) skewX(-7deg);
 }
 .description-logo_block{
-  height: 38px;
+  height: 40px;
   padding: 0 5px 0;
   border-top: 1px solid black;
 }
@@ -100,22 +102,35 @@ header{
   }
 }
 .top-info_block{
-  height: 120px;
+  height: 135px;
   width: 100%;
 }
-.web_buttons{
-  float: right;
+
+.bottom-info_block{
+  height: 40px;
+  width: 100%;
 }
-.web_buttons button{
-  outline: none;
-  border: none;
+.bottom-info_block ul{
+  padding: 0;
   margin: 0;
-  width: 80px;
-  height: 24px;
+  list-style-type: none;
+}
+.bottom-info_block li{
+  display: inline-block;
+  width: 25%;
+  height: 40px;
+}
+.bottom-info_block a{
+  display: block;
+  height: 20px;
+  padding: 10px 0px;
   background-color: black;
   color: white;
+  font-family: monospace;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
 }
-
 
 
 .navbar{
