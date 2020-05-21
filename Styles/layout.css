@@ -14,7 +14,7 @@ body{
 /*-------------------------------------------------------------*/
 header{
   width: calc(100% - 20px);
-  height: 215px;
+  height: 175px;
   padding: 10px;
 }
 
@@ -102,8 +102,11 @@ header{
   }
 }
 .top-info_block{
-  height: 135px;
+  height: 115px;
   width: 100%;
+  padding: 20px 0 0 0;
+  text-align: center;
+  font-family: "Segoe UI";
 }
 
 .bottom-info_block{
@@ -117,29 +120,41 @@ header{
 }
 .bottom-info_block li{
   display: inline-block;
-  width: 25%;
+  width: 33.333%;
   height: 40px;
+  clear: none;
+  float: left;
 }
-.bottom-info_block a{
+.nav_btns{
   display: block;
   height: 20px;
   padding: 10px 0px;
   background-color: black;
   color: white;
-  font-family: monospace;
+  font-family: "Segoe UI";
   font-size: 15px;
   text-align: center;
   text-decoration: none;
+  transition: all 0.2s linear;
+}
+.nav_btns:hover{
+  color: red;
+  background-color: hsla(48, 100%, 93%, 1);
 }
 
 
-.navbar{
-  height: 40px;
-  width: 100%;
-  background-color: red;
+hr{
+  width: 90%;
+  margin: 0 auto 10px;
+  border: 2px solid black;
 }
-
 /*-------------------------------------------------------------*/
+main{
+  width: 98%;
+  height: 400px;
+  background-color: hsla(48, 100%, 93%, 1);
+  margin: 0 1%;
+}
 .card{
   height: 150px;
   width: 150px;
