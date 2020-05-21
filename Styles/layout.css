@@ -25,7 +25,7 @@ header{
 }
 @media screen and (max-width:710px) {
   header{
-    height: 430px;
+    height: 360px;
   }
   .pre-navbars{
     height: 360px;
