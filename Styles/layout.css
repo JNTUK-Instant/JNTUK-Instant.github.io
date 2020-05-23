@@ -148,25 +148,4 @@ hr{
   margin: 0 auto 10px;
   border: 2px solid black;
 }
-/*-------------------------------------------------------------*/
-main{
-  width: 98%;
-  height: 400px;
-  background-color: hsla(48, 100%, 93%, 1);
-  margin: 0 1%;
-  padding: 15px 0;
-}
-
-.newsbar{
-  width: 92%;
-  height: 40px;
-  margin: 0 auto;
-  background-color: green;
-}
-.newsbar marquee{
-  height: 24px;
-  margin: 8px;
-  font-size: 18px;
-  font-family: monospace;
-  background-color: hsla(48, 100%, 93%, 1);
-}
+/*------------------------------------------------------------------------------*/

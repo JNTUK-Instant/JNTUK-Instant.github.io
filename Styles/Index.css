@@ -1,0 +1,47 @@
+main{
+  width: 98%;
+  height: 700px;
+  background-color: hsla(48, 100%, 93%, 1);
+  margin: 0 1%;
+  padding: 15px 0;
+}
+
+.newsbar{
+  width: 92%;
+  height: 40px;
+  margin: 0 auto;
+  background-color: green;
+}
+.newsbar marquee{
+  height: 24px;
+  margin: 8px;
+  font-size: 18px;
+  font-family: monospace;
+  background-color: hsla(48, 100%, 93%, 1);
+}
+
+.year_block{
+  margin: 0 2%;
+  width: 96%;
+  height: 300px;
+}
+
+.year_block h2{
+  font-family: sans-serif;
+}
+
+.year_cards_block{
+  width: 96%;
+  margin: 0 2%;
+  height: 120px;
+}
+
+.the_card{
+  float: left;
+  margin: 10px 2%;
+  height: 200px;
+  width: 21%;
+  background-color: white;
+  box-shadow: 0 0 5px black;
+  text-align: center;
+}
