@@ -3,7 +3,7 @@ main{
   height: 700px;
   background-color: hsla(48, 100%, 93%, 1);
   margin: 0 1%;
-  padding: 15px 0;
+  padding: 12px 0;
 }
 
 .newsbar{
@@ -34,14 +34,27 @@ main{
   width: 96%;
   margin: 0 2%;
   height: 120px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .the_card{
   float: left;
-  margin: 10px 2%;
-  height: 200px;
-  width: 21%;
+  margin: 6px 1%;
+  height: 180px;
+  width: 20%;
+  min-width: 160px;
   background-color: white;
   box-shadow: 0 0 5px black;
   text-align: center;
+}
+.card_content{
+  width: 96%;
+  height: 96%;
+  margin: 2%;
+  background-color: black;
+}
+.card_y a{
+  text-decoration: none;
+  color: white;
 }

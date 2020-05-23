@@ -2,6 +2,9 @@ body{
   margin: 6px 0;
   scroll-behavior: smooth;
 }
+h1{
+  margin: 0;
+}
 
 /*------------------------------------------------------------------------------*/
 .page_content{
@@ -24,6 +27,10 @@ header{
   width: 100%;
 }
 @media screen and (max-width:710px) {
+  .page_content{
+    margin: 0 1%;
+    border-radius: 36px 36px 0 0;
+  }
   header{
     height: 360px;
   }
