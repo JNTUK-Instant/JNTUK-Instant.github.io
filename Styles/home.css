@@ -1,0 +1,17 @@
+body{
+  background-color: pink;
+  margin: 10% 10%;
+  scroll-behavior: smooth;
+}
+button#p,button#q,button#r,button#s,button#t,button#u{
+ background-color: #4CAF50; /* Green */
+  
+  border: 4px solid black;
+  color: white;
+  padding: 40px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  }
+  
