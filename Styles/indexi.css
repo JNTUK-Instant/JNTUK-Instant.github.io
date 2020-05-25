@@ -31,30 +31,33 @@ main{
 }
 
 .year_cards_block{
-  width: 96%;
-  margin: 0 2%;
+  width: 98%;
+  margin: 0 1%;
   height: 120px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .the_card{
-  float: left;
-  margin: 6px 1%;
-  height: 180px;
-  width: 20%;
-  min-width: 160px;
-  background-color: white;
-  box-shadow: 0 0 5px black;
-  text-align: center;
-}
-.card_content{
-  width: 96%;
-  height: 96%;
-  margin: 2%;
+  margin: 6px;
+  height: 150px;
+  width: 150px;
+  padding: 5px;
   background-color: black;
 }
-.card_y a{
-  text-decoration: none;
-  color: white;
+@media screen and (min-width: 750px) {
+  .the_card{
+    height: 200px;
+    width: 200px;
+  }
+}
+.card_content{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  text-align: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
