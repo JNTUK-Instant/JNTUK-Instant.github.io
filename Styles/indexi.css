@@ -20,17 +20,17 @@ main{
   background-color: hsla(48, 100%, 93%, 1);
 }
 
-.year_block{
+.branch_block{
   margin: 0 2%;
   width: 96%;
   height: 300px;
 }
 
-.year_block h2{
+.branch_block h2{
   font-family: sans-serif;
 }
 
-.year_cards_block{
+.branch_cards_block{
   width: 98%;
   margin: 0 1%;
   height: 120px;
@@ -40,16 +40,20 @@ main{
 }
 
 .the_card{
-  margin: 6px;
-  height: 150px;
-  width: 150px;
+  margin: 10px;
+  height: 200px;
+  width: 200px;
+  transition: all 0.2s linear;
   padding: 5px;
   background-color: black;
 }
-@media screen and (min-width: 750px) {
+.the_card:hover{
+  transform: scale(1.1);
+}
+@media screen and (max-width: 750px) {
   .the_card{
-    height: 200px;
-    width: 200px;
+    height: 140px;
+    width: 140px;
   }
 }
 .card_content{
@@ -57,5 +61,7 @@ main{
   width: 100%;
   height: 100%;
   background-color: white;
+  color: black;
   text-align: center;
+  text-decoration: none;
 }
