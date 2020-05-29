@@ -17,15 +17,15 @@ main{
 }
 @media screen and (max-width: 520px) {
   .semesters_choose{
-    width: 85%;
+    width: 90%;
   }
 
 }
 .box_year{
-  margin: 8px;
+  margin: 10px 5px;
   background-color: white;
-  width: 125px;
-  height: 125px;
+  width: 130px;
+  height: 140px;
   text-align: center;
 }
 .box_year p{
@@ -34,6 +34,6 @@ main{
 }
 .box_year button{
   margin: 4px;
-  width: 96px;
-  height: 28px;
+  width: 100px;
+  height: 33px;
 }
