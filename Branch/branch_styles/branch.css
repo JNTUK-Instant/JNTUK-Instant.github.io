@@ -14,6 +14,7 @@ main{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-bottom: 20px;
 }
 @media screen and (max-width: 520px) {
   .semesters_choose{
@@ -36,4 +37,10 @@ main{
   margin: 4px;
   width: 100px;
   height: 33px;
+  outline: none;
+}
+
+.semester{
+  width: 100%;
+  border: 2px solid black
 }
