@@ -154,6 +154,7 @@ hr{
   width: 90%;
   margin: 10px auto;
   border: 2px solid black;
+  box-shadow: 0 0 10px white;
 }
 
 main{
