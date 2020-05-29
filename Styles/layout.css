@@ -150,7 +150,7 @@ header{
 }
 
 
-hr{
+.hr_line{
   width: 90%;
   margin: 10px auto;
   border: 2px solid black;
@@ -158,8 +158,8 @@ hr{
 }
 
 main{
+  box-sizing: border-box;
   width: 100%;
-  height: 600px;
   background-color: hsla(48, 100%, 93%, 1);
   padding: 12px 0;
 }

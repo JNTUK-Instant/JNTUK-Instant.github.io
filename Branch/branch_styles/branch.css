@@ -1,6 +1,6 @@
 main{
-  box-sizing: border-box;
   padding: 5px;
+  height: 800px;
 }
 .branch_heading{
   text-align: center;
