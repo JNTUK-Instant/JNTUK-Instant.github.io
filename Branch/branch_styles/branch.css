@@ -1,0 +1,39 @@
+main{
+  box-sizing: border-box;
+  padding: 5px;
+}
+.branch_heading{
+  text-align: center;
+  font-family: sans-serif;
+}
+.semesters_choose{
+  border: 4px solid black;
+  border-radius: 15px;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+@media screen and (max-width: 520px) {
+  .semesters_choose{
+    width: 85%;
+  }
+
+}
+.box_year{
+  margin: 8px;
+  background-color: white;
+  width: 125px;
+  height: 125px;
+  text-align: center;
+}
+.box_year p{
+  text-align: center;
+  font-family: sans-serif;
+}
+.box_year button{
+  margin: 4px;
+  width: 96px;
+  height: 28px;
+}
