@@ -18,32 +18,39 @@ h1{
 header{
   width: 100%;
   height: 175px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 @media screen and (max-width:710px) {
   .page_content{
-    margin: 0 1%;
+    margin: 0 2px;
   }
   header{
     height: 360px;
   }
 }
-/*------------------------------------*/
+/*------------------------------------
 .header_floats{
   width: calc(50% - 10px);
   height: 175px;
   float: left;
   background-color: hsla(48, 100%, 93%, 1);
+} */
+.header_floats{
+  width: 49%;
+  height: 175px;
+  background-color: hsla(48, 100%, 93%, 1);
 }
+
 @media screen and (max-width:710px) {
   .header_floats{
-    float: none;
     width: 100%;
   }
 }
 
 .logo_block{
   border-radius: 30px 0 0 0;
-  margin-right: 10px;
   user-select: none;
   padding: 0;
 }
@@ -89,7 +96,6 @@ header{
 
 /*------------------------------------*/
 .info_block{
-  margin-left: 10px;
   border-radius: 0 30px 0 0;
 }
 @media screen and (max-width:710px) {
@@ -115,12 +121,15 @@ header{
   padding: 0;
   margin: 0;
   list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .bottom-info_block li{
-  width: 33.333%;
+  width: 100%;
   height: 40px;
   clear: none;
-  float: left;
+  flex: 1;
 }
 .nav_btns{
   display: block;
