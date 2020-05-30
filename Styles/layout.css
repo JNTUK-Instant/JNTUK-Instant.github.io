@@ -126,7 +126,6 @@ header{
   list-style-type: none;
 }
 .bottom-info_block li{
-  display: inline-block;
   width: 33.333%;
   height: 40px;
   clear: none;
