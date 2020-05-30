@@ -30,13 +30,7 @@ header{
     height: 360px;
   }
 }
-/*------------------------------------
-.header_floats{
-  width: calc(50% - 10px);
-  height: 175px;
-  float: left;
-  background-color: hsla(48, 100%, 93%, 1);
-} */
+/*------------------------------------*/
 .header_floats{
   width: 49%;
   height: 175px;
