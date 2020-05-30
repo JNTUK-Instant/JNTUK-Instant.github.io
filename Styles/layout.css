@@ -19,20 +19,11 @@ header{
   width: 100%;
   height: 175px;
 }
-
-
-.pre-navbars{
-  height: 175px;
-  width: 100%;
-}
 @media screen and (max-width:710px) {
   .page_content{
     margin: 0 1%;
   }
   header{
-    height: 360px;
-  }
-  .pre-navbars{
     height: 360px;
   }
 }
