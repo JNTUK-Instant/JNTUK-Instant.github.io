@@ -42,6 +42,12 @@ main{
   background-color: white;
   color: black;
   font-family: sans-serif;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+.box_year button:hover{
+  background-color: black;
+  color: white;
 }
 
 .semester{
