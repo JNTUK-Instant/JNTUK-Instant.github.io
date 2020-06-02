@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
+
 body{
   margin: 6px 0;
   scroll-behavior: smooth;
@@ -57,14 +59,16 @@ header{
 
 .top-logo_block{
   height: 140px;
-  padding: 18px 5px 0;
+  padding: 12px 5px 0;
 }
 
 .top-logo_block h1{
   text-align: center;
-  font-size: 38px;
-  font-family: monospace;
-  background-color: red;
+  font-size: 36px;
+  font-family: 'Nanum Myeongjo', serif;
+  background-color: crimson;
+  color: hsla(48, 100%, 93%, 1);
+  padding: 5px;
 }
 
 #heading1{
@@ -74,7 +78,7 @@ header{
 #heading2{
   margin: 10px auto;
   width: 300px;
-  transform: rotate(-8deg) skewX(-8deg);
+  transform: rotate(-7deg) skewX(-7deg);
 }
 .bottom-logo_block{
   height: 40px;
@@ -82,7 +86,7 @@ header{
   border-top: 1px solid black;
 }
 .bottom-logo_block p{
-  margin: 8px;
+  margin: 6px;
   font-size: 12px;
   text-align: center;
   font-family: sans-serif;
