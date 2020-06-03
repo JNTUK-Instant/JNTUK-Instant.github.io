@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
 
 body{
-  margin: 6px 0;
+  margin: 2px 0;
   scroll-behavior: smooth;
 }
 h1{
@@ -27,6 +27,7 @@ header{
 @media screen and (max-width:710px) {
   .page_content{
     margin: 0 2px;
+    padding: 6px;
   }
   header{
     height: 410px;
@@ -111,6 +112,7 @@ header{
   text-align: center;
   font-family: "Segoe UI";
 }
+/* ---Carousel-------------------- */
 .carousel-container{
   height: 100%;
   width: 100%;
@@ -121,6 +123,13 @@ header{
   height: 100%;
   width: 80%;
 }
+.carousel-img img{
+  margin: 0 auto;
+  width: auto;
+  height: 150px;
+}
+
+
 
 .bottom-info_block{
   height: 40px;
@@ -179,5 +188,4 @@ footer{
   border-radius: 0 0 30px 30px;
   box-sizing: border-box;
   padding: 7px;
-  transition: 0.3s linear;
 }
