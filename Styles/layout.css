@@ -179,4 +179,5 @@ footer{
   border-radius: 0 0 30px 30px;
   box-sizing: border-box;
   padding: 7px;
+  transition: 0.3s linear;
 }
