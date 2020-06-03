@@ -51,6 +51,7 @@ main{
   .the_card{
     height: 140px;
     width: 140px;
+    margin: 7px;
   }
 }
 .card_content{
