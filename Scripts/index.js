@@ -13,3 +13,13 @@ $('.carousel').slick({
     autoplay: true,
     autoplaySpeed: 2100
 });
+
+
+
+
+/*
+CREDITS:
+- slick.js (src: https://kenwheeler.github.io/slick/)
+- 
+
+*/
