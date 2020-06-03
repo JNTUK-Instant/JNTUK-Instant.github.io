@@ -19,7 +19,7 @@ h1{
 /*-------------------------------------------------------------*/
 header{
   width: 100%;
-  height: 190px;
+  height: 200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -29,13 +29,13 @@ header{
     margin: 0 2px;
   }
   header{
-    height: 390px;
+    height: 410px;
   }
 }
-/*------------------------------------*/
+/*---------------------------------------------------*/
 .header_floats{
   width: 49%;
-  height: 190px;
+  height: 200px;
   background-color: hsla(48, 100%, 93%, 1);
 }
 
@@ -58,7 +58,7 @@ header{
 }
 
 .top-logo_block{
-  height: 140px;
+  height: 150px;
   padding: 12px 5px 0;
 }
 
@@ -92,7 +92,7 @@ header{
   font-family: sans-serif;
 }
 
-/*------------------------------------*/
+/*-------------------------------------------------*/
 .info_block{
   border-radius: 0 30px 0 0;
 }
@@ -105,11 +105,21 @@ header{
 }
 .top-info_block{
   box-sizing: border-box;
-  height: 150px;
+  height: 160px;
   width: 100%;
   padding: 5px;
   text-align: center;
   font-family: "Segoe UI";
+}
+.carousel-container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.carousel{
+  height: 85%;
+  width: 80%;
 }
 
 .bottom-info_block{
