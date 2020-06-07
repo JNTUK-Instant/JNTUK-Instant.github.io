@@ -35,6 +35,7 @@ $('.carousel').slick({
 /*
 CREDITS:
 - slick.js (src: https://kenwheeler.github.io/slick/)
-- 
+- DISQUS
+-
 
 */
