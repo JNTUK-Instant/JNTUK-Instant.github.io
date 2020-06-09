@@ -71,16 +71,31 @@ header{
   color: hsla(48, 100%, 93%, 1);
   padding: 5px;
 }
-
 #heading1{
   margin: 0 auto 0;
   width: 160px;
+  border: 1px solid black;
 }
 #heading2{
-  margin: 10px auto;
+  margin: 0px auto;
   width: 300px;
-  transform: rotate(-7deg) skewX(-7deg);
+  box-shadow: 0 0 20px black;
+  animation: skewdown 0.2s ease-in 1s forwards;
 }
+#heading2:hover{
+  box-shadow: 0 0 30px black;
+  transition: all 0.4s;
+}
+@keyframes skewdown {
+  from{
+    margin: 0px auto;
+  }
+  to{
+    transform: rotate(-7deg) skewX(-7deg);
+    margin: 10px auto;
+  }
+}
+
 .bottom-logo_block{
   height: 40px;
   padding: 0 5px 0;
