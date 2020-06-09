@@ -143,8 +143,6 @@ header{
   height: 150px;
 }
 
-
-
 .bottom-info_block{
   height: 40px;
   width: 100%;
@@ -179,7 +177,6 @@ header{
   color: red;
   background-color: hsla(48, 100%, 93%, 1);
 }
-
 
 .hr_line{
   width: 90%;
