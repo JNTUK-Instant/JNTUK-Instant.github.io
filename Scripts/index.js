@@ -21,6 +21,7 @@ s.setAttribute('data-timestamp', +new Date());
 $('.carousel').slick({
     infinite: true,
     fade: true,
+    arrows: false,
     speed: 100,
     autoplay: true,
     autoplaySpeed: 2100

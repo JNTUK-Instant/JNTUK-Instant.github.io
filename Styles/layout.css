@@ -27,7 +27,7 @@ header{
 @media screen and (max-width:725px) {
   .page_content{
     margin: 0 2px;
-    padding: 6px;
+    padding: 8px;
   }
   header{
     height: 410px;
@@ -35,7 +35,7 @@ header{
 }
 /*---------------------------------------------------*/
 .header_floats{
-  width: 49%;
+  width: 49.3%;
   height: 200px;
   background-color: hsla(48, 100%, 93%, 1);
 }
@@ -79,11 +79,7 @@ header{
   margin: 0px auto;
   width: 300px;
   box-shadow: 0 0 20px black;
-  animation: skewdown 0.2s ease-in 1s forwards;
-}
-#heading2:hover{
-  box-shadow: 0 0 30px black;
-  transition: all 0.4s;
+  animation: skewdown 0.2s ease-in 2s forwards;
 }
 @keyframes skewdown {
   from{
