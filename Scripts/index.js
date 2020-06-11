@@ -1,5 +1,3 @@
-console.log("Created by @Phani-Codesman and @The-UCS-Variable");
-
 /**
 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
@@ -15,22 +13,3 @@ s.src = 'https://https-jntuk-instant-github-io.disqus.com/embed.js';
 s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
 })();
-
-
-//jQuery code below...
-$('.carousel').slick({
-    infinite: true,
-    fade: true,
-    arrows: false,
-    speed: 100,
-    autoplay: true,
-    autoplaySpeed: 2100
-});
-
-/*
-CREDITS:
-- slick.js (src: https://kenwheeler.github.io/slick/)
-- DISQUS
--
-
-*/
