@@ -69,14 +69,3 @@ main{
   text-align: center;
 }
 
-.addthis_inline_share_toolbox{
-  width: 320px;
-  height: 60px;
-  margin: auto;
-  text-align: center;
-}
-@media screen and (max-width: 800px){
-  .addthis_inline_share_toolbox{
-    width: 152px;
-  }
-}
