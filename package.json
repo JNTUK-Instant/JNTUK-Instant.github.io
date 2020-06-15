@@ -1,0 +1,6 @@
+{
+  "version": "1.4.14",
+  "name": "jntuk-instant",
+  "author": {"name": "The-UCS-Variable"},
+  "scripts": {"start": "http-server -p 8088"}
+}
