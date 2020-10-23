@@ -1,4 +1,4 @@
-console.log("Created by @Phani-Codesman and @The-UCS-Variable");
+console.log("Created by @Phani-E650 and @U-C-S");
 
 
 //jQuery code below...
