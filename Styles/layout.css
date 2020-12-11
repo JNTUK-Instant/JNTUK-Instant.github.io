@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap");
 
-body{
+body {
   margin: 2px 0;
   scroll-behavior: smooth;
 }
-h1{
+h1 {
   margin: 0;
 }
 
 /*------------------------------------------------------------------------------*/
-.page_content{
+.page_content {
   margin: 0 3%;
   min-width: 365px;
   padding: 10px;
@@ -17,86 +17,86 @@ h1{
   background-color: hsla(82, 30%, 35%, 0.8);
 }
 /*-------------------------------------------------------------*/
-header{
+header {
   width: 100%;
   height: 200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-@media screen and (max-width:725px) {
-  .page_content{
+@media screen and (max-width: 725px) {
+  .page_content {
     margin: 0 2px;
     padding: 8px;
   }
-  header{
+  header {
     height: 410px;
   }
 }
 /*---------------------------------------------------*/
-.header_floats{
+.header_floats {
   width: 49.3%;
   height: 200px;
   background-color: hsla(48, 100%, 93%, 1);
 }
 
-@media screen and (max-width:725px) {
-  .header_floats{
+@media screen and (max-width: 725px) {
+  .header_floats {
     width: 100%;
   }
 }
 
-.logo_block{
+.logo_block {
   border-radius: 30px 0 0 0;
   user-select: none;
   padding: 0;
 }
-@media screen and (max-width:725px) {
-  .logo_block{
+@media screen and (max-width: 725px) {
+  .logo_block {
     border-radius: 32px 32px 0 0;
     margin-right: 0;
   }
 }
 
-.top-logo_block{
+.top-logo_block {
   height: 150px;
   padding: 12px 5px 0;
 }
 
-.top-logo_block h1{
+.top-logo_block h1 {
   text-align: center;
   font-size: 36px;
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: "Nanum Myeongjo", serif;
   background-color: crimson;
   color: hsla(48, 100%, 93%, 1);
   padding: 5px;
 }
-#heading1{
+#heading1 {
   margin: 0 auto 0;
   width: 160px;
 }
-#heading2{
+#heading2 {
   margin: 0px auto;
   width: 300px;
   box-shadow: 0 0 20px black;
   animation: skewdown 0.2s ease-in 2s forwards;
 }
 @keyframes skewdown {
-  from{
+  from {
     margin: 0px auto;
   }
-  to{
+  to {
     transform: rotate(-7deg) skewX(-7deg);
     margin: 10px auto;
   }
 }
 
-.bottom-logo_block{
+.bottom-logo_block {
   height: 40px;
   padding: 0 5px 0;
   border-top: 1px solid black;
 }
-.bottom-logo_block p{
+.bottom-logo_block p {
   margin: 6px;
   font-size: 12px;
   text-align: center;
@@ -104,17 +104,17 @@ header{
 }
 
 /*-------------------------------------------------*/
-.info_block{
+.info_block {
   border-radius: 0 30px 0 0;
 }
-@media screen and (max-width:725px) {
-  .info_block{
+@media screen and (max-width: 725px) {
+  .info_block {
     margin-left: 0;
     margin-top: 10px;
     border-radius: 0;
   }
 }
-.top-info_block{
+.top-info_block {
   box-sizing: border-box;
   height: 160px;
   width: 100%;
@@ -123,27 +123,27 @@ header{
   font-family: "Segoe UI";
 }
 /* ---Carousel-------------------- */
-.carousel-container{
+.carousel-container {
   height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
 }
-.carousel{
+.carousel {
   height: 100%;
   width: 80%;
 }
-.carousel-img img{
+.carousel-img img {
   margin: 0 auto;
   width: auto;
   height: 150px;
 }
 
-.bottom-info_block{
+.bottom-info_block {
   height: 40px;
   width: 100%;
 }
-.bottom-info_block ul{
+.bottom-info_block ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
@@ -151,13 +151,13 @@ header{
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.bottom-info_block li{
+.bottom-info_block li {
   width: 100%;
   height: 40px;
   clear: none;
   flex: 1;
 }
-.nav_btns{
+.nav_btns {
   display: block;
   height: 20px;
   padding: 10px 0px;
@@ -169,26 +169,26 @@ header{
   text-decoration: none;
   transition: all 0.2s linear;
 }
-.nav_btns:hover{
+.nav_btns:hover {
   color: red;
   background-color: hsla(48, 100%, 93%, 1);
 }
 
-.hr_line{
+.hr_line {
   width: 90%;
   margin: 10px auto;
   border: 2px solid black;
   box-shadow: 0 0 10px white;
 }
 
-main{
+main {
   box-sizing: border-box;
   width: 100%;
   background-color: hsla(48, 100%, 93%, 1);
   padding: 12px 0;
 }
 /*------------------------------------------------------------------------------*/
-footer{
+footer {
   width: 100%;
   min-height: 100px;
   background-color: hsla(48, 100%, 93%, 1);

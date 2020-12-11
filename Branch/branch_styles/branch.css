@@ -1,12 +1,12 @@
-main{
+main {
   padding: 5px;
   height: 800px;
 }
-.branch_heading{
+.branch_heading {
   text-align: center;
   font-family: sans-serif;
 }
-.semesters_choose{
+.semesters_choose {
   border: 4px solid black;
   border-radius: 15px;
   width: 70%;
@@ -17,23 +17,22 @@ main{
   margin-bottom: 20px;
 }
 @media screen and (max-width: 520px) {
-  .semesters_choose{
+  .semesters_choose {
     width: 90%;
   }
-
 }
-.box_year{
+.box_year {
   margin: 10px 5px;
   background-color: white;
   width: 130px;
   height: 140px;
   text-align: center;
 }
-.box_year p{
+.box_year p {
   text-align: center;
   font-family: sans-serif;
 }
-.box_year button{
+.box_year button {
   margin: 4px;
   width: 100px;
   height: 33px;
@@ -45,12 +44,12 @@ main{
   cursor: pointer;
   transition: all 0.1s linear;
 }
-.box_year button:hover{
+.box_year button:hover {
   background-color: black;
   color: white;
 }
 
-.semester{
+.semester {
   width: 100%;
-  border: 2px solid black
+  border: 2px solid black;
 }
