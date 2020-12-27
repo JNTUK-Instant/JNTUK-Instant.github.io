@@ -129,7 +129,7 @@ header {
   display: flex;
   justify-content: center;
 }
-.carousel {
+#carousel {
   height: 100%;
   width: 80%;
 }
@@ -177,7 +177,7 @@ header {
 .hr_line {
   width: 90%;
   margin: 10px auto;
-  border: 2px solid black;
+  border: 1px solid black;
   box-shadow: 0 0 10px white;
 }
 

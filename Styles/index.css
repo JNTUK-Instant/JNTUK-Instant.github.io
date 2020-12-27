@@ -6,7 +6,7 @@ main {
   width: 92%;
   height: 36px;
   margin: 0 auto;
-  background-color: green;
+  background-color: hsl(82, 30%, 35%);
   box-shadow: 3px 3px 10px hsl(0, 0%, 40%);
 }
 .newsbar marquee {
